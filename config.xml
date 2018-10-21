@@ -23,7 +23,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <content src="index.html" />
     <access origin="*" />
 	
-	<preference name="phonegap-version" value="cli-7.1.0" />
+	<preference name="phonegap-version" value="cli-8.1.2" />
 
     
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
