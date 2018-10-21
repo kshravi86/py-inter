@@ -24,8 +24,10 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <access origin="*" />
 	
 	<preference name="phonegap-version" value="cli-7.1.0" />
-	<gap:plugin name="cordova-admob-sdk" source="npm" />
-
+	<plugin name="cordova-admob-sdk" spec="../plugins/cordova-admob-sdk">
+		<variable name="PLAY_SERVICES_VERSION" value="11.0.1" />
+	</plugin>
+	
 	
     
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
