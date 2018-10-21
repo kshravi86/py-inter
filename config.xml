@@ -25,7 +25,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
 	
 	<preference name="phonegap-version" value="cli-7.1.0" />
 	
-	<plugin spec="https://github.com/floatinghotpot/cordova-admob-pro/tree/ea1de4ca5b45bb73390a7d27263300961dcc9c93" source="git" />
+	<plugin spec="https://github.com/kshravi86/cordova-admob-pro.git" source="git" />
 	
     
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
